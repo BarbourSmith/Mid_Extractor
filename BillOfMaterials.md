@@ -2,3 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|Mid Extractor PCB, assembled by JLCPCB (76 x 40 mm, 1.6 mm, all parts fitted)|1|$0.00||
+|Total: |1|$0.00| |
