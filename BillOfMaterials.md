@@ -2,6 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|8mm M3 Bolt|4|$0.00||
+|25mm M3 Bolt|4|$0.00||
 |Mid Extractor PCB, assembled by JLCPCB (76 x 40 mm, 1.6 mm, all parts fitted)|1|$0.00||
 |Total: |5|$0.00| |
