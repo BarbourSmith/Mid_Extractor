@@ -4619,8 +4619,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2,
-          "y": 0.4,
+          "x": 0.205,
+          "y": 0.4366,
           "uniqueID": "id-711",
           "name": "Lid",
           "topLevel": false,
@@ -5674,7 +5674,7 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.35,
+          "x": 0.3532,
           "y": 0.8,
           "uniqueID": "id-907",
           "name": "DC Plug Opening",
