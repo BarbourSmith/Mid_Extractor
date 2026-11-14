@@ -2270,11 +2270,11 @@
             },
             {
               "name": "Thread_Length",
-              "ioValue": 19
+              "ioValue": 7.4
             },
             {
               "name": "Length",
-              "ioValue": 25
+              "ioValue": 20
             }
           ],
           "topLevel": false,
@@ -2329,7 +2329,7 @@
                 },
                 {
                   "name": "Item Name",
-                  "ioValue": "25mm M3 Bolt",
+                  "ioValue": "20mm M3 Bolt",
                   "currentEquation": "New Item"
                 },
                 {
@@ -2346,7 +2346,7 @@
                 }
               ],
               "BOMitem": {
-                "BOMitemName": "25mm M3 Bolt",
+                "BOMitemName": "20mm M3 Bolt",
                 "numberNeeded": 1,
                 "costUSD": 0,
                 "source": ""
@@ -2361,7 +2361,7 @@
               "ioValues": [
                 {
                   "name": "L",
-                  "ioValue": 25
+                  "ioValue": 20
                 }
               ],
               "currentEquation": "L + \"mm M3 Bolt\""
@@ -2406,7 +2406,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": -25
+                  "ioValue": -20
                 }
               ]
             },
@@ -2468,7 +2468,7 @@
               "ioValues": [
                 {
                   "name": "T",
-                  "ioValue": 19
+                  "ioValue": 7.4
                 }
               ],
               "currentEquation": "-1*T"
@@ -2485,7 +2485,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": -19
+                  "ioValue": -7.4
                 }
               ]
             },
@@ -2509,7 +2509,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": -19
+                  "ioValue": -7.4
                 }
               ]
             },
@@ -2583,7 +2583,7 @@
               "ioValues": [
                 {
                   "name": "L",
-                  "ioValue": 25
+                  "ioValue": 20
                 }
               ],
               "currentEquation": "-1*L"
@@ -3474,16 +3474,40 @@
             },
             {
               "name": "zDist",
-              "ioValue": 19
+              "ioValue": -5.8
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.3,
+          "y": 0.3,
+          "uniqueID": "id-2571",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 180
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
             }
           ]
         }
       ],
       "allConnectors": [
         {
-          "ap2Name": "Geometry",
+          "ap2Name": "geometry",
           "ap1ID": "id-1080",
-          "ap2ID": "id-1162"
+          "ap2ID": "id-2571"
         },
         {
           "ap2Name": "Geometry",
@@ -3499,6 +3523,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-1276",
           "ap2ID": "id-1056"
+        },
+        {
+          "ap2Name": "Geometry",
+          "ap1ID": "id-2571",
+          "ap2ID": "id-1162"
         }
       ],
       "fileTypeVersion": 1
@@ -4209,6 +4238,1058 @@
           "fileTypeVersion": 1
         },
         {
+          "atomType": "Molecule",
+          "x": 0.05,
+          "y": 0.3,
+          "uniqueID": "id-2313",
+          "name": "Outer Body",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-2315",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.15,
+              "y": 0.5,
+              "uniqueID": "id-2317",
+              "name": "Rounded Edge",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-2319",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "GitHubMolecule",
+                  "x": 0.15,
+                  "y": 0.2,
+                  "uniqueID": "id-2327",
+                  "name": "Rounded_Rectangle",
+                  "ioValues": [
+                    {
+                      "name": "X_Length",
+                      "ioValue": 82
+                    },
+                    {
+                      "name": "Y_Length",
+                      "ioValue": 45.5
+                    },
+                    {
+                      "name": "Radius",
+                      "ioValue": 4
+                    }
+                  ],
+                  "topLevel": false,
+                  "allAtoms": [
+                    {
+                      "atomType": "Output",
+                      "x": 0.98,
+                      "y": 0.5,
+                      "uniqueID": "id-2322",
+                      "ioValues": [
+                        {
+                          "name": "number or geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.1538,
+                      "uniqueID": "id-2323",
+                      "name": "X_Length",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.2462,
+                      "uniqueID": "id-2324",
+                      "name": "Y_Length",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.3385,
+                      "uniqueID": "id-2325",
+                      "name": "Radius",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Code",
+                      "x": 0.496,
+                      "y": 0.6379,
+                      "uniqueID": "id-2326",
+                      "ioValues": [
+                        {
+                          "name": "width",
+                          "ioValue": 82
+                        },
+                        {
+                          "name": "height",
+                          "ioValue": 45.5
+                        },
+                        {
+                          "name": "cornerRadius",
+                          "ioValue": 4
+                        }
+                      ],
+                      "interpreterVersion": 1,
+                      "code": "function run(\n  width: number = 40,\n  height: number = 30,\n  cornerRadius: number = 5,\n): Assembly {\n  // Create a 2D rounded rectangle sketch\n  const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n\n  return new Assembly({\n    geometry: roundedRect,\n    tags: [\"rounded-rectangle\", \"2d\"],\n    bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n  });\n}",
+                      "compiledCode": "\"use strict\";\nfunction run(width = 40, height = 30, cornerRadius = 5) {\n    // Create a 2D rounded rectangle sketch\n    const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n    return new Assembly({\n        geometry: roundedRect,\n        tags: [\"rounded-rectangle\", \"2d\"],\n        bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n    });\n}\n"
+                    }
+                  ],
+                  "allConnectors": [
+                    {
+                      "ap2Name": "width",
+                      "ap1ID": "id-2323",
+                      "ap2ID": "id-2326"
+                    },
+                    {
+                      "ap2Name": "height",
+                      "ap1ID": "id-2324",
+                      "ap2ID": "id-2326"
+                    },
+                    {
+                      "ap2Name": "cornerRadius",
+                      "ap1ID": "id-2325",
+                      "ap2ID": "id-2326"
+                    },
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-2326",
+                      "ap2ID": "id-2322"
+                    }
+                  ],
+                  "parentRepo": {
+                    "owner": "BarbourSmith",
+                    "repoName": "Rounded_Rectangle",
+                    "privateRepo": false,
+                    "dateModified": "2026-06-24T22:04:58Z"
+                  },
+                  "unitsKey": "Unitless",
+                  "fileTypeVersion": 1,
+                  "scaleToProjectUnits": true,
+                  "lastReloadedFromGithubAt": 1794687932518
+                },
+                {
+                  "atomType": "GitHubMolecule",
+                  "x": 0.15,
+                  "y": 0.5,
+                  "uniqueID": "id-2348",
+                  "name": "Rounded_Rectangle",
+                  "ioValues": [
+                    {
+                      "name": "X_Length",
+                      "ioValue": 80.83
+                    },
+                    {
+                      "name": "Y_Length",
+                      "ioValue": 44.33
+                    },
+                    {
+                      "name": "Radius",
+                      "ioValue": 3.41
+                    }
+                  ],
+                  "topLevel": false,
+                  "allAtoms": [
+                    {
+                      "atomType": "Output",
+                      "x": 0.98,
+                      "y": 0.5,
+                      "uniqueID": "id-2343",
+                      "ioValues": [
+                        {
+                          "name": "number or geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.1538,
+                      "uniqueID": "id-2344",
+                      "name": "X_Length",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.2462,
+                      "uniqueID": "id-2345",
+                      "name": "Y_Length",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.3385,
+                      "uniqueID": "id-2346",
+                      "name": "Radius",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Code",
+                      "x": 0.496,
+                      "y": 0.6379,
+                      "uniqueID": "id-2347",
+                      "ioValues": [
+                        {
+                          "name": "width",
+                          "ioValue": 80.83
+                        },
+                        {
+                          "name": "height",
+                          "ioValue": 44.33
+                        },
+                        {
+                          "name": "cornerRadius",
+                          "ioValue": 3.41
+                        }
+                      ],
+                      "interpreterVersion": 1,
+                      "code": "function run(\n  width: number = 40,\n  height: number = 30,\n  cornerRadius: number = 5,\n): Assembly {\n  // Create a 2D rounded rectangle sketch\n  const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n\n  return new Assembly({\n    geometry: roundedRect,\n    tags: [\"rounded-rectangle\", \"2d\"],\n    bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n  });\n}",
+                      "compiledCode": "\"use strict\";\nfunction run(width = 40, height = 30, cornerRadius = 5) {\n    // Create a 2D rounded rectangle sketch\n    const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n    return new Assembly({\n        geometry: roundedRect,\n        tags: [\"rounded-rectangle\", \"2d\"],\n        bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n    });\n}\n"
+                    }
+                  ],
+                  "allConnectors": [
+                    {
+                      "ap2Name": "width",
+                      "ap1ID": "id-2344",
+                      "ap2ID": "id-2347"
+                    },
+                    {
+                      "ap2Name": "height",
+                      "ap1ID": "id-2345",
+                      "ap2ID": "id-2347"
+                    },
+                    {
+                      "ap2Name": "cornerRadius",
+                      "ap1ID": "id-2346",
+                      "ap2ID": "id-2347"
+                    },
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-2347",
+                      "ap2ID": "id-2343"
+                    }
+                  ],
+                  "parentRepo": {
+                    "owner": "BarbourSmith",
+                    "repoName": "Rounded_Rectangle",
+                    "privateRepo": false,
+                    "dateModified": "2026-06-24T22:04:58Z"
+                  },
+                  "unitsKey": "Unitless",
+                  "fileTypeVersion": 1,
+                  "scaleToProjectUnits": true,
+                  "lastReloadedFromGithubAt": 1794687944540
+                },
+                {
+                  "atomType": "GitHubMolecule",
+                  "x": 0.15,
+                  "y": 0.8,
+                  "uniqueID": "id-2369",
+                  "name": "Rounded_Rectangle",
+                  "ioValues": [
+                    {
+                      "name": "X_Length",
+                      "ioValue": 78
+                    },
+                    {
+                      "name": "Y_Length",
+                      "ioValue": 41.5
+                    },
+                    {
+                      "name": "Radius",
+                      "ioValue": 2,
+                      "currentEquation": "2"
+                    }
+                  ],
+                  "topLevel": false,
+                  "allAtoms": [
+                    {
+                      "atomType": "Output",
+                      "x": 0.98,
+                      "y": 0.5,
+                      "uniqueID": "id-2364",
+                      "ioValues": [
+                        {
+                          "name": "number or geometry",
+                          "ioValue": "__GEOMETRY_INPUT__"
+                        }
+                      ]
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.1538,
+                      "uniqueID": "id-2365",
+                      "name": "X_Length",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.2462,
+                      "uniqueID": "id-2366",
+                      "name": "Y_Length",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Input",
+                      "x": 0.0254,
+                      "y": 0.3385,
+                      "uniqueID": "id-2367",
+                      "name": "Radius",
+                      "options": []
+                    },
+                    {
+                      "atomType": "Code",
+                      "x": 0.496,
+                      "y": 0.6379,
+                      "uniqueID": "id-2368",
+                      "ioValues": [
+                        {
+                          "name": "width",
+                          "ioValue": 78
+                        },
+                        {
+                          "name": "height",
+                          "ioValue": 41.5
+                        },
+                        {
+                          "name": "cornerRadius",
+                          "ioValue": 2
+                        }
+                      ],
+                      "interpreterVersion": 1,
+                      "code": "function run(\n  width: number = 40,\n  height: number = 30,\n  cornerRadius: number = 5,\n): Assembly {\n  // Create a 2D rounded rectangle sketch\n  const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n\n  return new Assembly({\n    geometry: roundedRect,\n    tags: [\"rounded-rectangle\", \"2d\"],\n    bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n  });\n}",
+                      "compiledCode": "\"use strict\";\nfunction run(width = 40, height = 30, cornerRadius = 5) {\n    // Create a 2D rounded rectangle sketch\n    const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n    return new Assembly({\n        geometry: roundedRect,\n        tags: [\"rounded-rectangle\", \"2d\"],\n        bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n    });\n}\n"
+                    }
+                  ],
+                  "allConnectors": [
+                    {
+                      "ap2Name": "width",
+                      "ap1ID": "id-2365",
+                      "ap2ID": "id-2368"
+                    },
+                    {
+                      "ap2Name": "height",
+                      "ap1ID": "id-2366",
+                      "ap2ID": "id-2368"
+                    },
+                    {
+                      "ap2Name": "cornerRadius",
+                      "ap1ID": "id-2367",
+                      "ap2ID": "id-2368"
+                    },
+                    {
+                      "ap2Name": "number or geometry",
+                      "ap1ID": "id-2368",
+                      "ap2ID": "id-2364"
+                    }
+                  ],
+                  "parentRepo": {
+                    "owner": "BarbourSmith",
+                    "repoName": "Rounded_Rectangle",
+                    "privateRepo": false,
+                    "dateModified": "2026-06-24T22:04:58Z"
+                  },
+                  "unitsKey": "Unitless",
+                  "fileTypeVersion": 1,
+                  "scaleToProjectUnits": true,
+                  "lastReloadedFromGithubAt": 1794687956555
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.35,
+                  "y": 0.5,
+                  "uniqueID": "id-2384",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "xDist",
+                      "ioValue": 0,
+                      "currentEquation": "0"
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0,
+                      "currentEquation": "0"
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 1.414
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.35,
+                  "y": 0.8,
+                  "uniqueID": "id-2390",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "xDist",
+                      "ioValue": 0,
+                      "currentEquation": "0"
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0,
+                      "currentEquation": "0"
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": 2
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Loft",
+                  "x": 0.6,
+                  "y": 0.5,
+                  "uniqueID": "id-2396",
+                  "ioValues": [
+                    {
+                      "name": "smooth",
+                      "ioValue": true
+                    },
+                    {
+                      "name": "Shape 1",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape2",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape3",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape4",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "smooth",
+                      "ioValue": true
+                    },
+                    {
+                      "name": "Shape 1",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape2",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape3",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "Shape4",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ],
+                  "closedSelection": 0
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "Shape 1",
+                  "ap1ID": "id-2327",
+                  "ap2ID": "id-2396"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-2348",
+                  "ap2ID": "id-2384"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-2369",
+                  "ap2ID": "id-2390"
+                },
+                {
+                  "ap2Name": "Shape2",
+                  "ap1ID": "id-2384",
+                  "ap2ID": "id-2396"
+                },
+                {
+                  "ap2Name": "Shape3",
+                  "ap1ID": "id-2390",
+                  "ap2ID": "id-2396"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-2396",
+                  "ap2ID": "id-2319"
+                }
+              ],
+              "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Move",
+              "x": 0.35,
+              "y": 0.3,
+              "uniqueID": "id-2403",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 17
+                }
+              ]
+            },
+            {
+              "atomType": "Rotate",
+              "x": 0.35,
+              "y": 0.5,
+              "uniqueID": "id-2409",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 180
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5,
+              "y": 0.5,
+              "uniqueID": "id-2415",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": -6
+                }
+              ]
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.15,
+              "y": 0.8,
+              "uniqueID": "id-2427",
+              "name": "Rounded_Rectangle",
+              "ioValues": [
+                {
+                  "name": "X_Length",
+                  "ioValue": 82
+                },
+                {
+                  "name": "Y_Length",
+                  "ioValue": 45.5
+                },
+                {
+                  "name": "Radius",
+                  "ioValue": 4
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-2422",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.1538,
+                  "uniqueID": "id-2423",
+                  "name": "X_Length",
+                  "options": []
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.2462,
+                  "uniqueID": "id-2424",
+                  "name": "Y_Length",
+                  "options": []
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.3385,
+                  "uniqueID": "id-2425",
+                  "name": "Radius",
+                  "options": []
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.496,
+                  "y": 0.6379,
+                  "uniqueID": "id-2426",
+                  "ioValues": [
+                    {
+                      "name": "width",
+                      "ioValue": 82
+                    },
+                    {
+                      "name": "height",
+                      "ioValue": 45.5
+                    },
+                    {
+                      "name": "cornerRadius",
+                      "ioValue": 4
+                    }
+                  ],
+                  "interpreterVersion": 1,
+                  "code": "function run(\n  width: number = 40,\n  height: number = 30,\n  cornerRadius: number = 5,\n): Assembly {\n  // Create a 2D rounded rectangle sketch\n  const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n\n  return new Assembly({\n    geometry: roundedRect,\n    tags: [\"rounded-rectangle\", \"2d\"],\n    bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n  });\n}",
+                  "compiledCode": "\"use strict\";\nfunction run(width = 40, height = 30, cornerRadius = 5) {\n    // Create a 2D rounded rectangle sketch\n    const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n    return new Assembly({\n        geometry: roundedRect,\n        tags: [\"rounded-rectangle\", \"2d\"],\n        bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n    });\n}\n"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "width",
+                  "ap1ID": "id-2423",
+                  "ap2ID": "id-2426"
+                },
+                {
+                  "ap2Name": "height",
+                  "ap1ID": "id-2424",
+                  "ap2ID": "id-2426"
+                },
+                {
+                  "ap2Name": "cornerRadius",
+                  "ap1ID": "id-2425",
+                  "ap2ID": "id-2426"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-2426",
+                  "ap2ID": "id-2422"
+                }
+              ],
+              "parentRepo": {
+                "owner": "BarbourSmith",
+                "repoName": "Rounded_Rectangle",
+                "privateRepo": false,
+                "dateModified": "2026-06-24T22:04:58Z"
+              },
+              "unitsKey": "Unitless",
+              "fileTypeVersion": 1,
+              "scaleToProjectUnits": true,
+              "lastReloadedFromGithubAt": 1794687968615
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.35,
+              "y": 0.8,
+              "uniqueID": "id-2442",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 23
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.5,
+              "y": 0.8,
+              "uniqueID": "id-2446",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": -6
+                }
+              ]
+            },
+            {
+              "atomType": "Fusion",
+              "x": 0.7,
+              "y": 0.5,
+              "uniqueID": "id-2452",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Shape2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Shape3",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "unionType": "Fusion"
+            },
+            {
+              "atomType": "Move",
+              "x": 0.85,
+              "y": 0.5,
+              "uniqueID": "id-2458",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 38
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 20.25
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-2317",
+              "ap2ID": "id-2403"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-2317",
+              "ap2ID": "id-2409"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-2403",
+              "ap2ID": "id-2452"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-2409",
+              "ap2ID": "id-2415"
+            },
+            {
+              "ap2Name": "Shape2",
+              "ap1ID": "id-2415",
+              "ap2ID": "id-2452"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-2427",
+              "ap2ID": "id-2442"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-2442",
+              "ap2ID": "id-2446"
+            },
+            {
+              "ap2Name": "Shape3",
+              "ap1ID": "id-2446",
+              "ap2ID": "id-2452"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-2452",
+              "ap2ID": "id-2458"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-2458",
+              "ap2ID": "id-2315"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.05,
+          "y": 0.5,
+          "uniqueID": "id-2464",
+          "name": "Inner Cavity",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-2466",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.2,
+              "y": 0.5,
+              "uniqueID": "id-2474",
+              "name": "Rounded_Rectangle",
+              "ioValues": [
+                {
+                  "name": "X_Length",
+                  "ioValue": 78
+                },
+                {
+                  "name": "Y_Length",
+                  "ioValue": 41.5
+                },
+                {
+                  "name": "Radius",
+                  "ioValue": 2,
+                  "currentEquation": "2"
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-2469",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.1538,
+                  "uniqueID": "id-2470",
+                  "name": "X_Length",
+                  "options": []
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.2462,
+                  "uniqueID": "id-2471",
+                  "name": "Y_Length",
+                  "options": []
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.3385,
+                  "uniqueID": "id-2472",
+                  "name": "Radius",
+                  "options": []
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.496,
+                  "y": 0.6379,
+                  "uniqueID": "id-2473",
+                  "ioValues": [
+                    {
+                      "name": "width",
+                      "ioValue": 78
+                    },
+                    {
+                      "name": "height",
+                      "ioValue": 41.5
+                    },
+                    {
+                      "name": "cornerRadius",
+                      "ioValue": 2
+                    }
+                  ],
+                  "interpreterVersion": 1,
+                  "code": "function run(\n  width: number = 40,\n  height: number = 30,\n  cornerRadius: number = 5,\n): Assembly {\n  // Create a 2D rounded rectangle sketch\n  const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n\n  return new Assembly({\n    geometry: roundedRect,\n    tags: [\"rounded-rectangle\", \"2d\"],\n    bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n  });\n}",
+                  "compiledCode": "\"use strict\";\nfunction run(width = 40, height = 30, cornerRadius = 5) {\n    // Create a 2D rounded rectangle sketch\n    const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n    return new Assembly({\n        geometry: roundedRect,\n        tags: [\"rounded-rectangle\", \"2d\"],\n        bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n    });\n}\n"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "width",
+                  "ap1ID": "id-2470",
+                  "ap2ID": "id-2473"
+                },
+                {
+                  "ap2Name": "height",
+                  "ap1ID": "id-2471",
+                  "ap2ID": "id-2473"
+                },
+                {
+                  "ap2Name": "cornerRadius",
+                  "ap1ID": "id-2472",
+                  "ap2ID": "id-2473"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-2473",
+                  "ap2ID": "id-2469"
+                }
+              ],
+              "parentRepo": {
+                "owner": "BarbourSmith",
+                "repoName": "Rounded_Rectangle",
+                "privateRepo": false,
+                "dateModified": "2026-06-24T22:04:58Z"
+              },
+              "unitsKey": "Unitless",
+              "fileTypeVersion": 1,
+              "scaleToProjectUnits": true,
+              "lastReloadedFromGithubAt": 1794687980658
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.4,
+              "y": 0.5,
+              "uniqueID": "id-2489",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 22
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.6,
+              "y": 0.5,
+              "uniqueID": "id-2493",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 38
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 20.25
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": -5
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-2474",
+              "ap2ID": "id-2489"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-2489",
+              "ap2ID": "id-2493"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-2493",
+              "ap2ID": "id-2466"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
@@ -4226,8 +5307,180 @@
           "y": 0.15,
           "uniqueID": "id-517",
           "name": "Bottom Shell",
+          "ioValues": [
+            {
+              "name": "Body",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Cavity",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
           "topLevel": false,
           "allAtoms": [
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.1538,
+              "uniqueID": "id-2499",
+              "name": "Body",
+              "type": "geometry",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.2462,
+              "uniqueID": "id-2502",
+              "name": "Cavity",
+              "type": "geometry",
+              "options": []
+            },
+            {
+              "atomType": "Molecule",
+              "x": 0.05,
+              "y": 0.4,
+              "uniqueID": "id-2505",
+              "name": "Lower Half",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-2507",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Rectangle",
+                  "x": 0.2,
+                  "y": 0.5,
+                  "uniqueID": "id-2509",
+                  "ioValues": [
+                    {
+                      "name": "x length",
+                      "ioValue": 120
+                    },
+                    {
+                      "name": "y length",
+                      "ioValue": 80
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Extrude",
+                  "x": 0.4,
+                  "y": 0.5,
+                  "uniqueID": "id-2513",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "height",
+                      "ioValue": 30
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.6,
+                  "y": 0.5,
+                  "uniqueID": "id-2517",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "xDist",
+                      "ioValue": 38
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 20.25
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": -28.4
+                    }
+                  ]
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-2509",
+                  "ap2ID": "id-2513"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-2513",
+                  "ap2ID": "id-2517"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-2517",
+                  "ap2ID": "id-2507"
+                }
+              ],
+              "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Intersection",
+              "x": 0.25,
+              "y": 0.3,
+              "uniqueID": "id-2523",
+              "ioValues": [
+                {
+                  "name": "geometry1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "geometry2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.4,
+              "y": 0.35,
+              "uniqueID": "id-2527",
+              "ioValues": [
+                {
+                  "name": "retain",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "remove",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Tag",
+              "x": 0.85,
+              "y": 0.5,
+              "uniqueID": "id-2532",
+              "name": "Bottom Shell",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "tags": [
+                "Bottom Shell"
+              ]
+            },
             {
               "atomType": "Output",
               "x": 0.98,
@@ -4239,194 +5492,6 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ]
-            },
-            {
-              "atomType": "Molecule",
-              "x": 0.25,
-              "y": 0.35,
-              "uniqueID": "id-521",
-              "name": "Shell",
-              "topLevel": false,
-              "allAtoms": [
-                {
-                  "atomType": "Output",
-                  "x": 0.98,
-                  "y": 0.5,
-                  "uniqueID": "id-523",
-                  "ioValues": [
-                    {
-                      "name": "number or geometry",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Rectangle",
-                  "x": 0.15,
-                  "y": 0.3,
-                  "uniqueID": "id-525",
-                  "ioValues": [
-                    {
-                      "name": "x length",
-                      "ioValue": 82
-                    },
-                    {
-                      "name": "y length",
-                      "ioValue": 45.5
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Extrude",
-                  "x": 0.3,
-                  "y": 0.3,
-                  "uniqueID": "id-529",
-                  "ioValues": [
-                    {
-                      "name": "geometry",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    },
-                    {
-                      "name": "height",
-                      "ioValue": 8.6
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Move",
-                  "x": 0.45,
-                  "y": 0.3,
-                  "uniqueID": "id-533",
-                  "ioValues": [
-                    {
-                      "name": "geometry",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    },
-                    {
-                      "name": "xDist",
-                      "ioValue": 38
-                    },
-                    {
-                      "name": "yDist",
-                      "ioValue": 20.25
-                    },
-                    {
-                      "name": "zDist",
-                      "ioValue": -7
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Rectangle",
-                  "x": 0.15,
-                  "y": 0.6,
-                  "uniqueID": "id-539",
-                  "ioValues": [
-                    {
-                      "name": "x length",
-                      "ioValue": 78
-                    },
-                    {
-                      "name": "y length",
-                      "ioValue": 41.5
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Extrude",
-                  "x": 0.3,
-                  "y": 0.6,
-                  "uniqueID": "id-543",
-                  "ioValues": [
-                    {
-                      "name": "geometry",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    },
-                    {
-                      "name": "height",
-                      "ioValue": 25
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Move",
-                  "x": 0.45,
-                  "y": 0.6,
-                  "uniqueID": "id-547",
-                  "ioValues": [
-                    {
-                      "name": "geometry",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    },
-                    {
-                      "name": "xDist",
-                      "ioValue": 38
-                    },
-                    {
-                      "name": "yDist",
-                      "ioValue": 20.25
-                    },
-                    {
-                      "name": "zDist",
-                      "ioValue": -5
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Difference",
-                  "x": 0.65,
-                  "y": 0.45,
-                  "uniqueID": "id-553",
-                  "ioValues": [
-                    {
-                      "name": "retain",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    },
-                    {
-                      "name": "remove",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    }
-                  ]
-                }
-              ],
-              "allConnectors": [
-                {
-                  "ap2Name": "geometry",
-                  "ap1ID": "id-525",
-                  "ap2ID": "id-529"
-                },
-                {
-                  "ap2Name": "geometry",
-                  "ap1ID": "id-529",
-                  "ap2ID": "id-533"
-                },
-                {
-                  "ap2Name": "retain",
-                  "ap1ID": "id-533",
-                  "ap2ID": "id-553"
-                },
-                {
-                  "ap2Name": "geometry",
-                  "ap1ID": "id-539",
-                  "ap2ID": "id-543"
-                },
-                {
-                  "ap2Name": "geometry",
-                  "ap1ID": "id-543",
-                  "ap2ID": "id-547"
-                },
-                {
-                  "ap2Name": "remove",
-                  "ap1ID": "id-547",
-                  "ap2ID": "id-553"
-                },
-                {
-                  "ap2Name": "number or geometry",
-                  "ap1ID": "id-553",
-                  "ap2ID": "id-523"
-                }
-              ],
-              "fileTypeVersion": 1
             },
             {
               "atomType": "Molecule",
@@ -5247,14 +6312,39 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
-              "selectedColor": "Grey"
+              "selectedColor": "Black"
             }
           ],
           "allConnectors": [
             {
+              "ap2Name": "geometry1",
+              "ap1ID": "id-2499",
+              "ap2ID": "id-2523"
+            },
+            {
+              "ap2Name": "remove",
+              "ap1ID": "id-2502",
+              "ap2ID": "id-2527"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-2505",
+              "ap2ID": "id-2523"
+            },
+            {
+              "ap2Name": "retain",
+              "ap1ID": "id-2523",
+              "ap2ID": "id-2527"
+            },
+            {
               "ap2Name": "Shape 1",
-              "ap1ID": "id-521",
+              "ap1ID": "id-2527",
               "ap2ID": "id-703"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-2532",
+              "ap2ID": "id-519"
             },
             {
               "ap2Name": "Shape2",
@@ -5267,9 +6357,9 @@
               "ap2ID": "id-708"
             },
             {
-              "ap2Name": "number or geometry",
+              "ap2Name": "geometry",
               "ap1ID": "id-708",
-              "ap2ID": "id-519"
+              "ap2ID": "id-2532"
             }
           ],
           "fileTypeVersion": 1
@@ -5280,6 +6370,16 @@
           "y": 0.4366,
           "uniqueID": "id-711",
           "name": "Top Shell",
+          "ioValues": [
+            {
+              "name": "Body",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Cavity",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
           "topLevel": false,
           "allAtoms": [
             {
@@ -6074,18 +7174,36 @@
               "fileTypeVersion": 1
             },
             {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.1538,
+              "uniqueID": "id-2535",
+              "name": "Body",
+              "type": "geometry",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.2462,
+              "uniqueID": "id-2538",
+              "name": "Cavity",
+              "type": "geometry",
+              "options": []
+            },
+            {
               "atomType": "Molecule",
-              "x": 0.3357,
-              "y": 0.4214,
-              "uniqueID": "id-2268",
-              "name": "Shell",
+              "x": 0.05,
+              "y": 0.4,
+              "uniqueID": "id-2541",
+              "name": "Upper Half",
               "topLevel": false,
               "allAtoms": [
                 {
                   "atomType": "Output",
                   "x": 0.98,
                   "y": 0.5,
-                  "uniqueID": "id-2270",
+                  "uniqueID": "id-2543",
                   "ioValues": [
                     {
                       "name": "number or geometry",
@@ -6095,25 +7213,25 @@
                 },
                 {
                   "atomType": "Rectangle",
-                  "x": 0.15,
-                  "y": 0.3,
-                  "uniqueID": "id-2272",
+                  "x": 0.2,
+                  "y": 0.5,
+                  "uniqueID": "id-2545",
                   "ioValues": [
                     {
                       "name": "x length",
-                      "ioValue": 82
+                      "ioValue": 120
                     },
                     {
                       "name": "y length",
-                      "ioValue": 45.5
+                      "ioValue": 80
                     }
                   ]
                 },
                 {
                   "atomType": "Extrude",
-                  "x": 0.3,
-                  "y": 0.3,
-                  "uniqueID": "id-2273",
+                  "x": 0.4,
+                  "y": 0.5,
+                  "uniqueID": "id-2549",
                   "ioValues": [
                     {
                       "name": "geometry",
@@ -6121,15 +7239,15 @@
                     },
                     {
                       "name": "height",
-                      "ioValue": 17.4
+                      "ioValue": 30
                     }
                   ]
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.45,
-                  "y": 0.3,
-                  "uniqueID": "id-2274",
+                  "x": 0.6,
+                  "y": 0.5,
+                  "uniqueID": "id-2553",
                   "ioValues": [
                     {
                       "name": "geometry",
@@ -6148,118 +7266,74 @@
                       "ioValue": 1.6
                     }
                   ]
-                },
-                {
-                  "atomType": "Rectangle",
-                  "x": 0.15,
-                  "y": 0.55,
-                  "uniqueID": "id-2275",
-                  "ioValues": [
-                    {
-                      "name": "x length",
-                      "ioValue": 78
-                    },
-                    {
-                      "name": "y length",
-                      "ioValue": 41.5
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Extrude",
-                  "x": 0.3,
-                  "y": 0.55,
-                  "uniqueID": "id-2276",
-                  "ioValues": [
-                    {
-                      "name": "geometry",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    },
-                    {
-                      "name": "height",
-                      "ioValue": 17
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Move",
-                  "x": 0.45,
-                  "y": 0.55,
-                  "uniqueID": "id-2277",
-                  "ioValues": [
-                    {
-                      "name": "geometry",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    },
-                    {
-                      "name": "xDist",
-                      "ioValue": 38
-                    },
-                    {
-                      "name": "yDist",
-                      "ioValue": 20.25
-                    },
-                    {
-                      "name": "zDist",
-                      "ioValue": 0
-                    }
-                  ]
-                },
-                {
-                  "atomType": "Difference",
-                  "x": 0.55,
-                  "y": 0.4,
-                  "uniqueID": "id-2278",
-                  "ioValues": [
-                    {
-                      "name": "retain",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    },
-                    {
-                      "name": "remove",
-                      "ioValue": "__GEOMETRY_INPUT__"
-                    }
-                  ]
                 }
               ],
               "allConnectors": [
                 {
                   "ap2Name": "geometry",
-                  "ap1ID": "id-2272",
-                  "ap2ID": "id-2273"
+                  "ap1ID": "id-2545",
+                  "ap2ID": "id-2549"
                 },
                 {
                   "ap2Name": "geometry",
-                  "ap1ID": "id-2273",
-                  "ap2ID": "id-2274"
-                },
-                {
-                  "ap2Name": "retain",
-                  "ap1ID": "id-2274",
-                  "ap2ID": "id-2278"
-                },
-                {
-                  "ap2Name": "geometry",
-                  "ap1ID": "id-2275",
-                  "ap2ID": "id-2276"
-                },
-                {
-                  "ap2Name": "geometry",
-                  "ap1ID": "id-2276",
-                  "ap2ID": "id-2277"
-                },
-                {
-                  "ap2Name": "remove",
-                  "ap1ID": "id-2277",
-                  "ap2ID": "id-2278"
+                  "ap1ID": "id-2549",
+                  "ap2ID": "id-2553"
                 },
                 {
                   "ap2Name": "number or geometry",
-                  "ap1ID": "id-2278",
-                  "ap2ID": "id-2270"
+                  "ap1ID": "id-2553",
+                  "ap2ID": "id-2543"
                 }
               ],
               "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Intersection",
+              "x": 0.25,
+              "y": 0.3,
+              "uniqueID": "id-2559",
+              "ioValues": [
+                {
+                  "name": "geometry1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "geometry2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Difference",
+              "x": 0.4,
+              "y": 0.35,
+              "uniqueID": "id-2563",
+              "ioValues": [
+                {
+                  "name": "retain",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "remove",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Tag",
+              "x": 0.85,
+              "y": 0.5,
+              "uniqueID": "id-2568",
+              "name": "Top Shell",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "tags": [
+                "Top Shell"
+              ]
             },
             {
               "atomType": "Output",
@@ -6301,7 +7375,7 @@
                   "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
-              "selectedColor": "Light Blue"
+              "selectedColor": "Grey"
             }
           ],
           "allConnectors": [
@@ -6311,9 +7385,34 @@
               "ap2ID": "id-755"
             },
             {
+              "ap2Name": "geometry1",
+              "ap1ID": "id-2535",
+              "ap2ID": "id-2559"
+            },
+            {
+              "ap2Name": "remove",
+              "ap1ID": "id-2538",
+              "ap2ID": "id-2563"
+            },
+            {
+              "ap2Name": "geometry2",
+              "ap1ID": "id-2541",
+              "ap2ID": "id-2559"
+            },
+            {
+              "ap2Name": "retain",
+              "ap1ID": "id-2559",
+              "ap2ID": "id-2563"
+            },
+            {
               "ap2Name": "Shape 1",
-              "ap1ID": "id-2268",
+              "ap1ID": "id-2563",
               "ap2ID": "id-755"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-2568",
+              "ap2ID": "id-713"
             },
             {
               "ap2Name": "geometry",
@@ -6321,9 +7420,9 @@
               "ap2ID": "id-760"
             },
             {
-              "ap2Name": "number or geometry",
+              "ap2Name": "geometry",
               "ap1ID": "id-760",
-              "ap2ID": "id-713"
+              "ap2ID": "id-2568"
             }
           ],
           "fileTypeVersion": 1
@@ -7182,6 +8281,26 @@
           "ap2Name": "Shape8",
           "ap1ID": "id-2244",
           "ap2ID": "id-953"
+        },
+        {
+          "ap2Name": "Body",
+          "ap1ID": "id-2313",
+          "ap2ID": "id-517"
+        },
+        {
+          "ap2Name": "Body",
+          "ap1ID": "id-2313",
+          "ap2ID": "id-711"
+        },
+        {
+          "ap2Name": "Cavity",
+          "ap1ID": "id-2464",
+          "ap2ID": "id-517"
+        },
+        {
+          "ap2Name": "Cavity",
+          "ap1ID": "id-2464",
+          "ap2ID": "id-711"
         },
         {
           "ap2Name": "Shape 1",
