@@ -3534,8 +3534,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6,
-      "y": 0.5,
+      "x": 0.4802,
+      "y": 0.4901,
       "uniqueID": "id-1282",
       "ioValues": [
         {
@@ -3574,8 +3574,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.8,
-      "y": 0.3,
+      "x": 0.6495,
+      "y": 0.2563,
       "uniqueID": "id-2699",
       "name": "Extract Top Shell",
       "ioValues": [
@@ -3593,8 +3593,8 @@
     },
     {
       "atomType": "ExtractTag",
-      "x": 0.8,
-      "y": 0.7,
+      "x": 0.6376,
+      "y": 0.7577,
       "uniqueID": "id-2702",
       "name": "Extract Bottom Shell",
       "ioValues": [
@@ -3612,8 +3612,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8935,
-      "y": 0.2056,
+      "x": 0.8433,
+      "y": 0.2507,
       "uniqueID": "id-2705",
       "ioValues": [
         {
@@ -3646,8 +3646,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.879,
-      "y": 0.7634,
+      "x": 0.8439,
+      "y": 0.7606,
       "uniqueID": "id-2711",
       "ioValues": [
         {
@@ -3688,8 +3688,8 @@
       "allAtoms": [
         {
           "atomType": "Molecule",
-          "x": 0.2,
-          "y": 0.9,
+          "x": 0.2295,
+          "y": 0.7211,
           "uniqueID": "id-2143",
           "name": "RCA Plug Slots",
           "topLevel": false,
@@ -4230,8 +4230,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.35,
-          "y": 0.9,
+          "x": 0.4239,
+          "y": 0.8535,
           "uniqueID": "id-2244",
           "name": "DC Plug Slot",
           "topLevel": false,
@@ -5397,8 +5397,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.5,
-          "y": 0.9,
+          "x": 0.5787,
+          "y": 0.8789,
           "uniqueID": "id-2586",
           "name": "Roof Title Engraving",
           "topLevel": false,
@@ -5519,8 +5519,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.6,
-          "y": 0.9,
+          "x": 0.6653,
+          "y": 0.8479,
           "uniqueID": "id-2608",
           "name": "Input Labels",
           "topLevel": false,
@@ -5754,8 +5754,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.7,
-          "y": 0.9,
+          "x": 0.7712,
+          "y": 0.8958,
           "uniqueID": "id-2652",
           "name": "Output Labels",
           "topLevel": false,
@@ -8127,8 +8127,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2,
-          "y": 0.8,
+          "x": 0.1746,
+          "y": 0.6423,
           "uniqueID": "id-805",
           "name": "RCA Plug Openings",
           "topLevel": false,
@@ -8816,8 +8816,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.5,
-          "y": 0.8,
+          "x": 0.5741,
+          "y": 0.6817,
           "uniqueID": "id-933",
           "name": "LED Window",
           "topLevel": false,
@@ -8926,8 +8926,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.65,
-          "y": 0.5,
+          "x": 0.7196,
+          "y": 0.2845,
           "uniqueID": "id-953",
           "ioValues": [
             {
