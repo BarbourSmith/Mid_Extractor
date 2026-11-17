@@ -3669,8 +3669,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.15,
-      "y": 0.85,
+      "x": 0.4259,
+      "y": 0.8592,
       "uniqueID": "id-4086",
       "name": "Center Extractor Case",
       "topLevel": false,
