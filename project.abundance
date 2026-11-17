@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Molecule",
-      "x": 0.3,
-      "y": 0.5,
+      "x": 0.2989,
+      "y": 0.5155,
       "uniqueID": "id-102",
       "name": "Mid Extractor PCB",
       "topLevel": false,
@@ -230,13 +230,11 @@
                     },
                     {
                       "name": "distY",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "distZ",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     }
                   ],
                   "topLevel": false,
@@ -579,8 +577,7 @@
                     },
                     {
                       "name": "distZ",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     }
                   ],
                   "topLevel": false,
@@ -1053,8 +1050,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ]
             }
@@ -1267,13 +1263,11 @@
                     },
                     {
                       "name": "distY",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "distZ",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     }
                   ],
                   "topLevel": false,
@@ -1607,8 +1601,7 @@
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "zDist",
@@ -1713,8 +1706,8 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0.2,
-          "y": 0.7,
+          "x": 0.2011,
+          "y": 0.7014,
           "uniqueID": "id-415",
           "name": "J2 RCA Jack",
           "topLevel": false,
@@ -1855,8 +1848,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -2786,13 +2778,11 @@
             },
             {
               "name": "distY",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "distZ",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -3135,8 +3125,7 @@
             },
             {
               "name": "distZ",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             }
           ],
           "topLevel": false,
@@ -3718,8 +3707,7 @@
                 },
                 {
                   "name": "y length",
-                  "ioValue": 10,
-                  "currentEquation": "10"
+                  "ioValue": 10
                 }
               ]
             },
@@ -3784,13 +3772,11 @@
                 },
                 {
                   "name": "distY",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "distZ",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ],
               "topLevel": false,
@@ -4260,8 +4246,7 @@
                 },
                 {
                   "name": "y length",
-                  "ioValue": 10,
-                  "currentEquation": "10"
+                  "ioValue": 10
                 }
               ]
             },
@@ -4630,8 +4615,7 @@
                     },
                     {
                       "name": "Radius",
-                      "ioValue": 2,
-                      "currentEquation": "2"
+                      "ioValue": 2
                     }
                   ],
                   "topLevel": false,
@@ -4741,13 +4725,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "zDist",
@@ -4767,13 +4749,11 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "yDist",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "zDist",
@@ -4877,13 +4857,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -4927,13 +4905,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -5084,13 +5060,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -5139,8 +5113,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ]
             }
@@ -5236,8 +5209,7 @@
                 },
                 {
                   "name": "Radius",
-                  "ioValue": 2,
-                  "currentEquation": "2"
+                  "ioValue": 2
                 }
               ],
               "topLevel": false,
@@ -5581,8 +5553,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ]
             },
@@ -5630,8 +5601,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ]
             },
@@ -5680,13 +5650,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -5816,8 +5784,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ]
             },
@@ -5865,8 +5832,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ]
             },
@@ -5915,13 +5881,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -6260,13 +6224,11 @@
                     },
                     {
                       "name": "distY",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "distZ",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     }
                   ],
                   "topLevel": false,
@@ -6609,8 +6571,7 @@
                     },
                     {
                       "name": "distZ",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     }
                   ],
                   "topLevel": false,
@@ -7149,13 +7110,11 @@
                     },
                     {
                       "name": "distY",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "distZ",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     }
                   ],
                   "topLevel": false,
@@ -7498,8 +7457,7 @@
                     },
                     {
                       "name": "distZ",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     }
                   ],
                   "topLevel": false,
@@ -8169,8 +8127,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 10,
-                  "currentEquation": "10"
+                  "ioValue": 10
                 }
               ]
             },
@@ -8214,8 +8171,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -8244,13 +8200,11 @@
                 },
                 {
                   "name": "distY",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "distZ",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 }
               ],
               "topLevel": false,
@@ -8584,8 +8538,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -8717,8 +8670,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 10,
-                  "currentEquation": "10"
+                  "ioValue": 10
                 }
               ]
             },
@@ -8762,8 +8714,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
